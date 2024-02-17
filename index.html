@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dash_lodi</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
 </head>
 <body>
     <header>
@@ -21,9 +23,26 @@
     <a href="https://devlodi.github.io/Tarologa_karine/" target="_blank" class="appLink"><button>Pagina_insta_taróloga</button></a>
     <a href="https://devlodi.github.io/Contador_munchkin/" target="_blank" class="appLink"><button>Contador de munchkin</button></a>
 
-
 </div>
+    <div id="vanta-bg"></div>
 
     <script src="script.js"></script>
+
+        <script>
+VANTA.NET({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x3f3f3f,
+  backgroundColor: 0x121212, // Você pode ajustar para combinar com o seu esquema de cores
+  points: 12.00,
+  maxDistance: 20.00,
+  spacing: 15.00
+})
+</script>
 </body>
 </html>
